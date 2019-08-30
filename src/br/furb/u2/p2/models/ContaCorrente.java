@@ -1,12 +1,12 @@
-package br.models;
+package br.furb.u2.p2.models;
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import br.controller.Operacao;
-import br.controller.OperacaoTransferencia;
-import br.controller.TipoOperacao;
+import br.furb.u2.p2.controller.Operacao;
+import br.furb.u2.p2.controller.OperacaoTransferencia;
+import br.furb.u2.p2.controller.TipoOperacao;
 
 public class ContaCorrente {
 

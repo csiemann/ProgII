@@ -1,10 +1,10 @@
-package br.tests;
+package br.furb.u2.p2.tests;
 
 import org.junit.Test;
 
-import br.controller.Operacao;
-import br.models.Cliente;
-import br.models.ContaCorrente;
+import br.furb.u2.p2.controller.Operacao;
+import br.furb.u2.p2.models.Cliente;
+import br.furb.u2.p2.models.ContaCorrente;
 
 public class ClienteTest {
 

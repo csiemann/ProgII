@@ -1,4 +1,4 @@
-package br.models;
+package br.furb.u2.p2.models;
 
 public class ClientePessoaJuridica extends Cliente {
 

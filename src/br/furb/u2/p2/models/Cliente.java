@@ -1,4 +1,4 @@
-package br.models;
+package br.furb.u2.p2.models;
 
 import java.util.ArrayList;
 import java.util.List;

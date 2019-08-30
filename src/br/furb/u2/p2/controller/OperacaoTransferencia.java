@@ -1,8 +1,8 @@
-package br.controller;
+package br.furb.u2.p2.controller;
 
 import java.util.Date;
 
-import br.models.ContaCorrente;
+import br.furb.u2.p2.models.ContaCorrente;
 
 public class OperacaoTransferencia extends Operacao {
 
