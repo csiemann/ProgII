@@ -2,9 +2,9 @@ package br.furb.u2.p2.tests;
 
 import org.junit.Test;
 
-import br.furb.u2.p2.controller.Operacao;
 import br.furb.u2.p2.models.Cliente;
 import br.furb.u2.p2.models.ContaCorrente;
+import br.furb.u2.p2.services.Operacao;
 
 public class ClienteTest {
 

@@ -1,8 +1,9 @@
-package br.furb.u2.p2.controller;
+package br.furb.u2.p2.services;
 
 import java.util.Date;
 
 import br.furb.u2.p2.models.ContaCorrente;
+import br.furb.u2.p2.services.enums.TipoOperacao;
 
 public class Operacao {
 	private double valor;

@@ -3,12 +3,13 @@ package br.furb.u2.p2.models;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.Observable;
 
-import br.furb.u2.p2.controller.Operacao;
-import br.furb.u2.p2.controller.OperacaoTransferencia;
-import br.furb.u2.p2.controller.TipoOperacao;
+import br.furb.u2.p2.services.Operacao;
+import br.furb.u2.p2.services.OperacaoTransferencia;
+import br.furb.u2.p2.services.enums.TipoOperacao;
 
-public class ContaCorrente {
+public class ContaCorrente extends Observable {
 
 	public List<Operacao> operacoes= new ArrayList<>();
 	public OperacaoTransferencia transferencia;
