@@ -62,7 +62,7 @@ public class ClienteTest {
 	
 	private String listar(ContaCorrente con) {
 		StringBuilder builder = new StringBuilder();
-		builder.append("=========operaçao "+con.getCliente()+"========\n");
+		builder.append("=========operaÃ§ao "+con.getCliente()+"========\n");
 		for (Operacao operacao : con.operacoes) {
 			builder.append(operacao+"\n");
 		}

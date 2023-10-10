@@ -9,7 +9,7 @@ import br.furb.u2.p2.services.Operacao;
 import br.furb.u2.p2.services.OperacaoTransferencia;
 import br.furb.u2.p2.services.enums.TipoOperacao;
 
-public class ContaCorrente extends Observable {
+public class ContaCorrente {
 
 	public List<Operacao> operacoes= new ArrayList<>();
 	public OperacaoTransferencia transferencia;

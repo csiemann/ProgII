@@ -36,8 +36,6 @@ public class WAVPlayer implements FormatoAudio{
 
 	@Override
 	public void retornar(int segundos) {
-		// TODO Auto-generated method stub
-		
 	}
 
 }
