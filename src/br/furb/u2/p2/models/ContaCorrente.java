@@ -3,7 +3,6 @@ package br.furb.u2.p2.models;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-import java.util.Observable;
 
 import br.furb.u2.p2.services.Operacao;
 import br.furb.u2.p2.services.OperacaoTransferencia;
