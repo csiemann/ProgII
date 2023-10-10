@@ -58,7 +58,7 @@ public class AIFFSuperPlayer implements FormatoAudio{
 	@Override
 	public void reproduzir() {
 		if (estaParado) {
-			System.out.println("Não pode ser reproduzido, defina o cursor");
+			System.out.println("NÃ£o pode ser reproduzido, defina o cursor");
 		}else {
 			System.out.println("Reproduzindo arquivo "+arquivo);
 			setEstaReproduzindo(true);
@@ -79,7 +79,7 @@ public class AIFFSuperPlayer implements FormatoAudio{
 
 	@Override
 	public void avancar(int segundos) {
-		System.out.println("Avançado "+segundos+" segundos, arquivo foi para "+posicao+" segundo");
+		System.out.println("AvanÃ§ado "+segundos+" segundos, arquivo foi para "+posicao+" segundo");
 		setCursor(posicao+segundos);
 	}
 
